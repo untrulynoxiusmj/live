@@ -1,0 +1,147 @@
+html{
+    font-size: 12px;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.box{
+    font-size: 2rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 3rem auto;
+    padding: 3rem;
+    line-height: 3rem;
+    border-radius: 1rem;
+    box-shadow: 1px 4px 8px 0 rgba(70, 169, 194, 0.4), 0 2px 4px 0 rgba(0,0,0,0.36);
+}
+
+.all{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+body{
+    margin: 0;
+}
+
+.navBar{
+    margin: 0;
+    padding: 0;
+    position: sticky; 
+    top:0;
+    display: flex;
+    left: 0;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    margin-bottom: 4em;
+    flex-direction: column;
+}
+
+.total{
+    color: rgb(39, 80, 156);
+}
+.active{
+    color: rgb(152, 39, 156);
+}
+.recovered{
+    color: rgb(30, 144, 26);
+}
+.deaths{
+    color: rgb(156, 39, 39);
+}
+
+@media (min-width: 1000px){
+    .sideNav{
+        display: none;
+    }
+    .options{
+        display: flex !important;
+    }
+    .menu{
+        display: none !important;
+    }
+    .secondary{
+        display: none !important;
+    }
+    .w{
+        width: 25%;
+    }
+}
+
+
+@media (max-width: 1000px){
+    
+    .options{
+        display: none;
+    }
+
+    .all{
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mobile{
+        display: block;
+    }
+    html{
+        font-size : calc(0.75vw + 0.75vh);
+    }
+    .top{
+        display: flex;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    .options{
+        flex-direction: column;
+    }
+    .menu {
+        display: block;
+    }
+    .box{
+        width: 75%;
+    }
+}
+
+.flex{
+    display: flex;
+}
+
+.options{
+    display: none;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.pad{
+    padding: 1.5rem;
+}
+
+.heading{
+    padding: 3rem;
+    font-size: 2.5rem;
+}
+
+img{
+    width: 8%;
+    height: 8%;
+}
+
+.top{
+    justify-content: center;
+    align-items: center;
+}
+.secondary{
+    font-size: 3rem;
+    display: none ;
+}
