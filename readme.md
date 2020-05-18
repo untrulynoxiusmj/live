@@ -12,7 +12,7 @@ COVID - 19 statistics are taken from https://api.covid19india.org/data.json
 
 ##### Page on a desktop computer :
 
-![](C:\Users\asus\Desktop\desk.PNG)
+![](https://drive.google.com/file/d/1ViE9XmEAZLjFu3nzqAGxtRIzB_ztTtTl/view?usp=drivesdk)
 
 > On Navigation bar, different options ( Overview, Symptoms, Prevention, Treatment, Data) get highlighted as user reaches that section of page.
 > 
