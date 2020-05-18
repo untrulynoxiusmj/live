@@ -178,4 +178,6 @@ stateData = stateAll.statewise contains the location wise data.
 
 ---
 
-![](https://github.com/untrulynoxiusmj/live/blob/master/desk.png?raw=true)
+![](![](desk.png))
+
+
