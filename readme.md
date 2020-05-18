@@ -24,6 +24,8 @@ COVID - 19 statistics are taken from https://api.covid19india.org/data.json
 
 ![](https://drive.google.com/file/d/1ViE9XmEAZLjFu3nzqAGxtRIzB_ztTtTl/view?usp=drivesdk)
 
+![](https://drive.google.com/file/d/1ViE9XmEAZLjFu3nzqAGxtRIzB_ztTtTl/view?usp=drivesdk)
+
 ##### Page on a tablet :
 
 ![](C:\Users\asus\Desktop\tab.PNG)
@@ -175,3 +177,5 @@ stateData = stateAll.statewise contains the location wise data.
 - stateData[i].deaths is the total number of deaths in ith location
 
 ---
+
+![](https://github.com/untrulynoxiusmj/live/blob/master/desk.png?raw=true)
