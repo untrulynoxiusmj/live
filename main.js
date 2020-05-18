@@ -30,7 +30,6 @@ var active = !(document.querySelector(".options").style.display == "");
                     else{
                         window.scrollTo(0, document.querySelector(pre).offsetHeight + document.querySelector(pre).offsetTop - document.querySelector(".navbar").offsetHeight + document.querySelector(".options").offsetHeight);
                     }
-                    // document.querySelector(".options").display = "none";
                 })
         }
     
